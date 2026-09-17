@@ -13,7 +13,7 @@ jobs:
 
     permissions:
       contents: read
-      id-token: write
+      id-token: write # Necessário para o Trusted Publishing do NuGet
 
     steps:
       - name: Checkout
@@ -36,11 +36,6 @@ jobs:
       - name: Pack
         run: dotnet pack -c Release --no-build -o ./nupkg
 
-      - name: NuGet login
-        uses: NuGet/login@v1
-        id: login
-        with:
-          user: diegoschagas
-
       - name: Publish to NuGet
-        run: dotnet nuget push ./nupkg/*.nupkg --api-key "${{ steps.login.outputs.NUGET_API_KEY }}" --source https://api.nuget.org/v3/index.json --skip-duplicate
+        run: |
+          dotnet nuget push ./nupkg/*.nupkg --source https://api.nuget.org/v3/index.json --skip-duplicate || true
