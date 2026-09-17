@@ -24,14 +24,14 @@ jobs:
         with:
           dotnet-version: "8.0.x"
 
-      - name: Restore
+      - name: Restore dependencies
         run: dotnet restore
 
       - name: Build
         run: dotnet build -c Release --no-restore
 
       - name: Test
-        run: dotnet test -c Release --no-build
+        run: dotnet test -c Release --no-build --verbosity normal
 
       - name: Pack
         run: dotnet pack -c Release --no-build -o ./nupkg
@@ -44,4 +44,7 @@ jobs:
 
       - name: Publish to NuGet
         run: |
-          dotnet nuget push ./nupkg/*.nupkg --api-key "${{ steps.login.outputs.NUGET_API_KEY }}" --source https://api.nuget.org/v3/index.json --skip-duplicate || true
+          dotnet nuget push ./nupkg/*.nupkg \
+            --api-key "${{ steps.login.outputs.NUGET_API_KEY }}" \
+            --source https://api.nuget.org/v3/index.json \
+            --skip-duplicate || true
