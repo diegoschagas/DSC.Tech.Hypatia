@@ -1,21 +1,59 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
+
   <PropertyGroup>
     <TargetFramework>net10.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
+
     <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+
     <PackageId>DSC.Tech.Hypatia</PackageId>
+
     <Version>1.0.0</Version>
+    <PackageVersion>1.0.0</PackageVersion>
+
     <Authors>DSC.Tech</Authors>
     <Company>DSC.Tech</Company>
-    <Description>Lightweight, explicit CQRS messaging and dispatching infrastructure for .NET.</Description>
-    <PackageTags>messaging;cqrs;command;query;dispatcher;ddd;solid;clean-architecture;dotnet</PackageTags>
+
+    <PackageDescription>
+      Lightweight, explicit CQRS messaging and dispatching infrastructure for .NET.
+    </PackageDescription>
+
+    <Description>
+      Lightweight, explicit CQRS messaging and dispatching infrastructure for .NET.
+    </Description>
+
+    <PackageReadmeFile>
+      README.md
+    </PackageReadmeFile>
+
+    <PackageProjectUrl>
+      https://github.com/diegoschagas/DSC.Tech.Hypatia
+    </PackageProjectUrl>
+
+    <RepositoryUrl>
+      https://github.com/diegoschagas/DSC.Tech.Hypatia
+    </RepositoryUrl>
+
+    <RepositoryType>Git</RepositoryType>
+
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+
+    <PackageTags>
+      messaging;cqrs;command;query;dispatcher;ddd;solid;clean-architecture;dotnet
+    </PackageTags>
+
     <IsPackable>true</IsPackable>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
-    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <RepositoryType>git</RepositoryType>
+
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="/" />
+  </ItemGroup>
+
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.0" />
   </ItemGroup>
+
 </Project>
