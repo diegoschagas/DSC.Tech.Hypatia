@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="README.md" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/DSC.Tech.Hypatia/DSC.Tech.Hypatia.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/DSC.Tech.Hypatia.Tests/DSC.Tech.Hypatia.Tests.csproj" />
+  </Folder>
+</Solution>
