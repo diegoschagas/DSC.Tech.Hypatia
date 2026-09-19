@@ -8,8 +8,8 @@
 
     <PackageId>DSC.Tech.Hypatia</PackageId>
 
-    <Version>2.0.1</Version>
-    <PackageVersion>2.0.1</PackageVersion>
+	<Version>2.0.2</Version>
+	<PackageVersion>2.0.2</PackageVersion>
 
     <Authors>DSC.Tech</Authors>
     <Company>DSC.Tech</Company>
