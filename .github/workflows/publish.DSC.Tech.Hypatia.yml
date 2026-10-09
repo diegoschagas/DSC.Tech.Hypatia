@@ -8,12 +8,9 @@ on:
       - "v*"
 
 jobs:
-  publish:
+  build-and-test:
+    name: Build and Test
     runs-on: ubuntu-latest
-
-    permissions:
-      contents: read
-      id-token: write
 
     steps:
       - name: Checkout
@@ -33,11 +30,47 @@ jobs:
       - name: Test
         run: dotnet test -c Release --no-build
 
-      - name: Copy License to Project Directory
-        run: cp LICENSE ./src/DSC.Tech.Hypatia/
+  pack:
+    name: Pack NuGet Package
+    needs: build-and-test
+    runs-on: ubuntu-latest
 
-      - name: Pack
-        run: dotnet pack ./src/DSC.Tech.Hypatia/DSC.Tech.Hypatia.csproj -c Release --no-build -o ./nupkg
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "10.0.x"
+
+      - name: Copy License to Source Directory
+        run: cp LICENSE ./src/
+
+      - name: Pack Project
+        run: dotnet pack ./src/DSC.Tech.Hypatia/DSC.Tech.Hypatia.csproj -c Release -o ./nupkg
+
+      - name: Upload Package Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: nuget-package
+          path: ./nupkg/*.nupkg
+
+  publish:
+    name: Publish to NuGet
+    needs: pack
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: read
+      id-token: write
+
+    steps:
+      - name: Download Package Artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: nuget-package
+          path: ./nupkg
 
       - name: Show generated packages
         run: ls -lah ./nupkg
