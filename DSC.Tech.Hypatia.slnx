@@ -1,6 +1,11 @@
 <Solution>
   <Folder Name="/Solution Items/">
     <File Path=".github/workflows/publish.DSC.Tech.Hypatia.yml" />
+    <File Path="docs/ADR-001-Hypatia.docx" />
+    <File Path="docs/DAS_Hypatia_v0.1.docx" />
+    <File Path="docs/XPE_Hypatia_Relatorio_Template_Oficial_v10.docx" />
+    <File Path="docs/XPE_Hypatia_Relatorio_Template_Oficial_v15.docx" />
+    <File Path="docs/XPE_Hypatia_Relatorio_Template_Oficial_v17.docx" />
     <File Path="README.md" />
   </Folder>
   <Folder Name="/src/">
