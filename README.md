@@ -79,20 +79,23 @@ The project must validate, at minimum:
 
 Package:
 
-`DSC.Tech.Hypatia`
+`diegoschagas.Hypatia`
 
-Initial development version:
+Current version:
 
-`1.0.0`
+`2.0.2`
 
-During development, packages can be generated into a local NuGet feed.
+```
+dotnet add package diegoschagas.Hypatia
+```
+
+During development, packages can also be generated into a local NuGet feed.
 
 ## Status
 
-DSC.Tech.Hypatia is currently under initial development.
-
-The public API will be defined and tested before integration into consuming
-projects.
+DSC.Tech.Hypatia is published on NuGet (version 2.0.2). The public API is defined
+by the contracts in `Abstractions` and is documented in the Software Architecture
+Document (`docs/`).
 
 ## Architecture and Patterns
 

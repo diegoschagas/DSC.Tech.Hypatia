@@ -1,5 +1,6 @@
 ﻿namespace DSC.Tech.Hypatia.Dispatching;
 
+/// <summary>Thrown when more than one handler is registered for a dispatched message.</summary>
 public sealed class MultipleHandlersException : InvalidOperationException
 {
     public MultipleHandlersException(Type messageType, Type handlerType, int count)

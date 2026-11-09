@@ -5,6 +5,10 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace DSC.Tech.Hypatia.Dispatching;
 
+/// <summary>
+/// Default <c>IMessageDispatcher</c>: resolves the handler from the current DI scope and invokes it.
+/// It requires exactly one handler per message and preserves the original handler exception.
+/// </summary>
 public sealed class MessageDispatcher(IServiceProvider serviceProvider) : IMessageDispatcher
 {
     public Task Send<TCommand>(

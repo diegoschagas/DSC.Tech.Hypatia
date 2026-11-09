@@ -6,6 +6,7 @@ using Microsoft.Extensions.DependencyInjection.Extensions;
 
 namespace DSC.Tech.Hypatia.DependencyInjection;
 
+/// <summary>Dependency injection integration for Hypatia.</summary>
 public static class ServiceCollectionExtensions
 {
     private static readonly Type[] HandlerDefinitions =
@@ -15,6 +16,13 @@ public static class ServiceCollectionExtensions
         typeof(IQueryHandler<,>)
     ];
 
+    /// <summary>
+    /// Registers <c>IMessageDispatcher</c> and every handler found in the given assemblies as scoped services.
+    /// Calling it more than once with the same assemblies does not duplicate registrations.
+    /// </summary>
+    /// <param name="services">The service collection.</param>
+    /// <param name="assemblies">Assemblies scanned for handler implementations.</param>
+    /// <returns>The same service collection, for chaining.</returns>
     public static IServiceCollection AddHypatia(
         this IServiceCollection services,
         params Assembly[] assemblies)

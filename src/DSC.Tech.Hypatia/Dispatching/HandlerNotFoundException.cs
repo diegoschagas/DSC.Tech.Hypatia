@@ -1,5 +1,6 @@
 ﻿namespace DSC.Tech.Hypatia.Dispatching;
 
+/// <summary>Thrown when no handler is registered for a dispatched message.</summary>
 public sealed class HandlerNotFoundException : InvalidOperationException
 {
     public HandlerNotFoundException(Type messageType, Type handlerType)
