@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="d4c8ce8e-1917-4082-aa27-d73fbeb94b88" name="diego@TATOOINE 2026-11-18 10:35:07" runUser="TATOOINE\diego" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-11-18T10:35:07.9298335-03:00" queuing="2026-11-18T10:35:07.9298341-03:00" start="2026-11-18T10:34:59.2122816-03:00" finish="2026-11-18T10:35:08.9690900-03:00" />
+  <TestSettings name="default" id="359d0ba4-6615-4dbc-bd56-f908b385c034">
+    <Deployment runDeploymentRoot="diego_TATOOINE_2026-11-18_10_35_07" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="129ca8f1-321d-47a2-b024-97be9d80fd65" testId="74dbfe6e-5df3-2115-8d20-4c47fed8a7b0" testName="DSC.Tech.Hypatia.Tests.Dispatching.MessageDispatcherTests.Query_ReturnsResultAndToken" computerName="TATOOINE" duration="00:00:00.0019790" startTime="2026-11-18T10:35:07.8858369-03:00" endTime="2026-11-18T10:35:07.8860446-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="129ca8f1-321d-47a2-b024-97be9d80fd65" />
+    <UnitTestResult executionId="3a546f20-731a-47eb-9bfc-427c8ff841ec" testId="610e0163-274e-5edc-1bcb-a354e924f303" testName="DSC.Tech.Hypatia.Tests.Dispatching.MessageDispatcherTests.MissingQueryHandler_ThrowsTypedException" computerName="TATOOINE" duration="00:00:00.0014903" startTime="2026-11-18T10:35:07.8817543-03:00" endTime="2026-11-18T10:35:07.8819766-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3a546f20-731a-47eb-9bfc-427c8ff841ec" />
+    <UnitTestResult executionId="dd57e9d9-5ad7-4382-a696-33c22823a6e8" testId="6260bf3a-699d-0cf8-d84e-3485075c7b0c" testName="DSC.Tech.Hypatia.Tests.Dispatching.MessageDispatcherTests.CommandWithoutResult_DispatchesOnceAndPropagatesToken" computerName="TATOOINE" duration="00:00:00.0070432" startTime="2026-11-18T10:35:07.8302737-03:00" endTime="2026-11-18T10:35:07.8719540-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dd57e9d9-5ad7-4382-a696-33c22823a6e8" />
+    <UnitTestResult executionId="42ff108f-02ba-466d-bfd6-ed4502339706" testId="a08c0200-75a9-212e-73cc-a5adb5b17c1b" testName="DSC.Tech.Hypatia.Tests.Dispatching.MessageDispatcherTests.MissingResultCommandHandler_ThrowsTypedException" computerName="TATOOINE" duration="00:00:00.0028914" startTime="2026-11-18T10:35:07.8272713-03:00" endTime="2026-11-18T10:35:07.8289600-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="42ff108f-02ba-466d-bfd6-ed4502339706" />
+    <UnitTestResult executionId="0dc39a0d-3865-4cbd-87af-191809af1e3a" testId="b0bb4286-d2d3-b109-0c32-ad10377c81ea" testName="DSC.Tech.Hypatia.Tests.Dispatching.MessageDispatcherTests.DifferentMessageTypes_AreIsolated" computerName="TATOOINE" duration="00:00:00.0570459" startTime="2026-11-18T10:35:07.7516088-03:00" endTime="2026-11-18T10:35:07.7821450-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0dc39a0d-3865-4cbd-87af-191809af1e3a" />
+    <UnitTestResult executionId="53705bea-3e12-48f1-a735-760508db0c33" testId="4367aece-4aef-8003-10c3-1d4ee5fc2b3e" testName="DSC.Tech.Hypatia.Tests.Dispatching.MessageDispatcherTests.CommandWithResult_ReturnsResultAndToken" computerName="TATOOINE" duration="00:00:00.0018267" startTime="2026-11-18T10:35:07.8796694-03:00" endTime="2026-11-18T10:35:07.8798859-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="53705bea-3e12-48f1-a735-760508db0c33" />
+    <UnitTestResult executionId="a9ee019e-8668-4bf7-a529-d880299c50b4" testId="87d0db83-9b13-4c4b-e971-e97a98492b06" testName="DSC.Tech.Hypatia.Tests.DependencyInjection.ServiceCollectionExtensionsTests.DispatcherAndHandlers_RespectScopedLifetime" computerName="TATOOINE" duration="00:00:00.0018162" startTime="2026-11-18T10:35:07.8317952-03:00" endTime="2026-11-18T10:35:07.8319761-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a9ee019e-8668-4bf7-a529-d880299c50b4" />
+    <UnitTestResult executionId="8fec440b-e81b-4e2f-9387-ef108b0408ae" testId="1405929d-ea76-3111-c5b3-a53f11a21e02" testName="DSC.Tech.Hypatia.Tests.Dispatching.MessageDispatcherTests.MissingCommandHandler_ThrowsTypedException" computerName="TATOOINE" duration="00:00:00.0016589" startTime="2026-11-18T10:35:07.8776036-03:00" endTime="2026-11-18T10:35:07.8778421-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8fec440b-e81b-4e2f-9387-ef108b0408ae" />
+    <UnitTestResult executionId="fef5ca21-3bbc-44e9-a406-ac370d23cde6" testId="38fa01a9-5600-1f30-5fb2-c8cfd61e2e82" testName="DSC.Tech.Hypatia.Tests.Dispatching.MessageDispatcherTests.HandlerException_IsNotWrappedByReflection" computerName="TATOOINE" duration="00:00:00.0034180" startTime="2026-11-18T10:35:07.8756606-03:00" endTime="2026-11-18T10:35:07.8758681-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fef5ca21-3bbc-44e9-a406-ac370d23cde6" />
+    <UnitTestResult executionId="800b2237-8a98-4a2e-b9f6-396dc9590ddd" testId="498f7cea-7c4f-e637-d760-8d816d27d43a" testName="DSC.Tech.Hypatia.Tests.DependencyInjection.ServiceCollectionExtensionsTests.HandlerDependencies_AreResolvedByContainer" computerName="TATOOINE" duration="00:00:00.0029977" startTime="2026-11-18T10:35:07.8288147-03:00" endTime="2026-11-18T10:35:07.8304235-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="800b2237-8a98-4a2e-b9f6-396dc9590ddd" />
+    <UnitTestResult executionId="30e40597-5cdb-41a6-9b54-487bd347c162" testId="3e6210ed-969e-8576-f506-8243eaddfeb5" testName="DSC.Tech.Hypatia.Tests.Dispatching.MessageDispatcherTests.MultipleHandlers_ThrowsInsteadOfSilentlyChoosingOne" computerName="TATOOINE" duration="00:00:00.0146262" startTime="2026-11-18T10:35:07.8202718-03:00" endTime="2026-11-18T10:35:07.8263454-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="30e40597-5cdb-41a6-9b54-487bd347c162" />
+    <UnitTestResult executionId="ef5a9fdb-a60d-4442-b2cf-986e6ad842ed" testId="03fd9089-7793-8903-24b2-4a04427587ef" testName="DSC.Tech.Hypatia.Tests.Dispatching.MessageDispatcherTests.NullMessages_AreRejected" computerName="TATOOINE" duration="00:00:00.0017031" startTime="2026-11-18T10:35:07.8838128-03:00" endTime="2026-11-18T10:35:07.8840289-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ef5a9fdb-a60d-4442-b2cf-986e6ad842ed" />
+    <UnitTestResult executionId="d813f418-5856-4b3c-954e-ad68276aebd5" testId="be4697d6-8d55-e821-2ca5-dc75b86a5b98" testName="DSC.Tech.Hypatia.Tests.DependencyInjection.ServiceCollectionExtensionsTests.RepeatedRegistration_IsIdempotentForSameAssembly" computerName="TATOOINE" duration="00:00:00.0055831" startTime="2026-11-18T10:35:07.8262500-03:00" endTime="2026-11-18T10:35:07.8273990-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d813f418-5856-4b3c-954e-ad68276aebd5" />
+    <UnitTestResult executionId="d50b23c4-ce19-485e-a6da-456716ca6821" testId="70531700-6ad5-7c34-13f2-c7b2108270be" testName="DSC.Tech.Hypatia.Tests.Dispatching.MessageDispatcherTests.ConcurrentDispatches_AreIndependent" computerName="TATOOINE" duration="00:00:00.0068921" startTime="2026-11-18T10:35:07.8737704-03:00" endTime="2026-11-18T10:35:07.8739875-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d50b23c4-ce19-485e-a6da-456716ca6821" />
+    <UnitTestResult executionId="b406a1c5-e81f-4b6b-9501-136295d5449b" testId="fd32bb3f-e30b-9224-ae7b-e52027f451fc" testName="DSC.Tech.Hypatia.Tests.DependencyInjection.ServiceCollectionExtensionsTests.AddHypatia_RegistersDispatcherAndAllHandlerShapes" computerName="TATOOINE" duration="00:00:00.0014449" startTime="2026-11-18T10:35:07.8704389-03:00" endTime="2026-11-18T10:35:07.8706718-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b406a1c5-e81f-4b6b-9501-136295d5449b" />
+    <UnitTestResult executionId="6d0fcf24-008f-4c1b-bac9-77699a932e50" testId="e74c2202-b268-42bf-d82a-f3b80846f596" testName="DSC.Tech.Hypatia.Tests.Integration.MessagingIntegrationTests.CommandThenQuery_EndToEnd_UsesSameScope" computerName="TATOOINE" duration="00:00:00.0571029" startTime="2026-11-18T10:35:07.7543378-03:00" endTime="2026-11-18T10:35:07.7915751-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6d0fcf24-008f-4c1b-bac9-77699a932e50" />
+    <UnitTestResult executionId="7a02a837-9cb1-4ee5-bfd7-06c4c1d695aa" testId="259679df-a56d-8c5d-15dd-90162500d2a0" testName="DSC.Tech.Hypatia.Tests.DependencyInjection.ServiceCollectionExtensionsTests.NullArguments_AreRejected" computerName="TATOOINE" duration="00:00:00.0039755" startTime="2026-11-18T10:35:07.8243658-03:00" endTime="2026-11-18T10:35:07.8245137-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7a02a837-9cb1-4ee5-bfd7-06c4c1d695aa" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="DSC.Tech.Hypatia.Tests.Dispatching.MessageDispatcherTests.CommandWithoutResult_DispatchesOnceAndPropagatesToken" storage="e:\projects\libraries\dsc.tech.hypatia\tests\dsc.tech.hypatia.tests\bin\release\net10.0\dsc.tech.hypatia.tests.dll" id="6260bf3a-699d-0cf8-d84e-3485075c7b0c">
+      <Execution id="dd57e9d9-5ad7-4382-a696-33c22823a6e8" />
+      <TestMethod codeBase="E:\Projects\Libraries\DSC.Tech.Hypatia\tests\DSC.Tech.Hypatia.Tests\bin\Release\net10.0\DSC.Tech.Hypatia.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="DSC.Tech.Hypatia.Tests.Dispatching.MessageDispatcherTests" name="CommandWithoutResult_DispatchesOnceAndPropagatesToken" />
+    </UnitTest>
+    <UnitTest name="DSC.Tech.Hypatia.Tests.DependencyInjection.ServiceCollectionExtensionsTests.NullArguments_AreRejected" storage="e:\projects\libraries\dsc.tech.hypatia\tests\dsc.tech.hypatia.tests\bin\release\net10.0\dsc.tech.hypatia.tests.dll" id="259679df-a56d-8c5d-15dd-90162500d2a0">
+      <Execution id="7a02a837-9cb1-4ee5-bfd7-06c4c1d695aa" />
+      <TestMethod codeBase="E:\Projects\Libraries\DSC.Tech.Hypatia\tests\DSC.Tech.Hypatia.Tests\bin\Release\net10.0\DSC.Tech.Hypatia.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="DSC.Tech.Hypatia.Tests.DependencyInjection.ServiceCollectionExtensionsTests" name="NullArguments_AreRejected" />
+    </UnitTest>
+    <UnitTest name="DSC.Tech.Hypatia.Tests.DependencyInjection.ServiceCollectionExtensionsTests.HandlerDependencies_AreResolvedByContainer" storage="e:\projects\libraries\dsc.tech.hypatia\tests\dsc.tech.hypatia.tests\bin\release\net10.0\dsc.tech.hypatia.tests.dll" id="498f7cea-7c4f-e637-d760-8d816d27d43a">
+      <Execution id="800b2237-8a98-4a2e-b9f6-396dc9590ddd" />
+      <TestMethod codeBase="E:\Projects\Libraries\DSC.Tech.Hypatia\tests\DSC.Tech.Hypatia.Tests\bin\Release\net10.0\DSC.Tech.Hypatia.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="DSC.Tech.Hypatia.Tests.DependencyInjection.ServiceCollectionExtensionsTests" name="HandlerDependencies_AreResolvedByContainer" />
+    </UnitTest>
+    <UnitTest name="DSC.Tech.Hypatia.Tests.Dispatching.MessageDispatcherTests.MissingCommandHandler_ThrowsTypedException" storage="e:\projects\libraries\dsc.tech.hypatia\tests\dsc.tech.hypatia.tests\bin\release\net10.0\dsc.tech.hypatia.tests.dll" id="1405929d-ea76-3111-c5b3-a53f11a21e02">
+      <Execution id="8fec440b-e81b-4e2f-9387-ef108b0408ae" />
+      <TestMethod codeBase="E:\Projects\Libraries\DSC.Tech.Hypatia\tests\DSC.Tech.Hypatia.Tests\bin\Release\net10.0\DSC.Tech.Hypatia.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="DSC.Tech.Hypatia.Tests.Dispatching.MessageDispatcherTests" name="MissingCommandHandler_ThrowsTypedException" />
+    </UnitTest>
+    <UnitTest name="DSC.Tech.Hypatia.Tests.Dispatching.MessageDispatcherTests.DifferentMessageTypes_AreIsolated" storage="e:\projects\libraries\dsc.tech.hypatia\tests\dsc.tech.hypatia.tests\bin\release\net10.0\dsc.tech.hypatia.tests.dll" id="b0bb4286-d2d3-b109-0c32-ad10377c81ea">
+      <Execution id="0dc39a0d-3865-4cbd-87af-191809af1e3a" />
+      <TestMethod codeBase="E:\Projects\Libraries\DSC.Tech.Hypatia\tests\DSC.Tech.Hypatia.Tests\bin\Release\net10.0\DSC.Tech.Hypatia.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="DSC.Tech.Hypatia.Tests.Dispatching.MessageDispatcherTests" name="DifferentMessageTypes_AreIsolated" />
+    </UnitTest>
+    <UnitTest name="DSC.Tech.Hypatia.Tests.Dispatching.MessageDispatcherTests.CommandWithResult_ReturnsResultAndToken" storage="e:\projects\libraries\dsc.tech.hypatia\tests\dsc.tech.hypatia.tests\bin\release\net10.0\dsc.tech.hypatia.tests.dll" id="4367aece-4aef-8003-10c3-1d4ee5fc2b3e">
+      <Execution id="53705bea-3e12-48f1-a735-760508db0c33" />
+      <TestMethod codeBase="E:\Projects\Libraries\DSC.Tech.Hypatia\tests\DSC.Tech.Hypatia.Tests\bin\Release\net10.0\DSC.Tech.Hypatia.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="DSC.Tech.Hypatia.Tests.Dispatching.MessageDispatcherTests" name="CommandWithResult_ReturnsResultAndToken" />
+    </UnitTest>
+    <UnitTest name="DSC.Tech.Hypatia.Tests.Dispatching.MessageDispatcherTests.ConcurrentDispatches_AreIndependent" storage="e:\projects\libraries\dsc.tech.hypatia\tests\dsc.tech.hypatia.tests\bin\release\net10.0\dsc.tech.hypatia.tests.dll" id="70531700-6ad5-7c34-13f2-c7b2108270be">
+      <Execution id="d50b23c4-ce19-485e-a6da-456716ca6821" />
+      <TestMethod codeBase="E:\Projects\Libraries\DSC.Tech.Hypatia\tests\DSC.Tech.Hypatia.Tests\bin\Release\net10.0\DSC.Tech.Hypatia.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="DSC.Tech.Hypatia.Tests.Dispatching.MessageDispatcherTests" name="ConcurrentDispatches_AreIndependent" />
+    </UnitTest>
+    <UnitTest name="DSC.Tech.Hypatia.Tests.Dispatching.MessageDispatcherTests.NullMessages_AreRejected" storage="e:\projects\libraries\dsc.tech.hypatia\tests\dsc.tech.hypatia.tests\bin\release\net10.0\dsc.tech.hypatia.tests.dll" id="03fd9089-7793-8903-24b2-4a04427587ef">
+      <Execution id="ef5a9fdb-a60d-4442-b2cf-986e6ad842ed" />
+      <TestMethod codeBase="E:\Projects\Libraries\DSC.Tech.Hypatia\tests\DSC.Tech.Hypatia.Tests\bin\Release\net10.0\DSC.Tech.Hypatia.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="DSC.Tech.Hypatia.Tests.Dispatching.MessageDispatcherTests" name="NullMessages_AreRejected" />
+    </UnitTest>
+    <UnitTest name="DSC.Tech.Hypatia.Tests.DependencyInjection.ServiceCollectionExtensionsTests.RepeatedRegistration_IsIdempotentForSameAssembly" storage="e:\projects\libraries\dsc.tech.hypatia\tests\dsc.tech.hypatia.tests\bin\release\net10.0\dsc.tech.hypatia.tests.dll" id="be4697d6-8d55-e821-2ca5-dc75b86a5b98">
+      <Execution id="d813f418-5856-4b3c-954e-ad68276aebd5" />
+      <TestMethod codeBase="E:\Projects\Libraries\DSC.Tech.Hypatia\tests\DSC.Tech.Hypatia.Tests\bin\Release\net10.0\DSC.Tech.Hypatia.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="DSC.Tech.Hypatia.Tests.DependencyInjection.ServiceCollectionExtensionsTests" name="RepeatedRegistration_IsIdempotentForSameAssembly" />
+    </UnitTest>
+    <UnitTest name="DSC.Tech.Hypatia.Tests.Dispatching.MessageDispatcherTests.MissingQueryHandler_ThrowsTypedException" storage="e:\projects\libraries\dsc.tech.hypatia\tests\dsc.tech.hypatia.tests\bin\release\net10.0\dsc.tech.hypatia.tests.dll" id="610e0163-274e-5edc-1bcb-a354e924f303">
+      <Execution id="3a546f20-731a-47eb-9bfc-427c8ff841ec" />
+      <TestMethod codeBase="E:\Projects\Libraries\DSC.Tech.Hypatia\tests\DSC.Tech.Hypatia.Tests\bin\Release\net10.0\DSC.Tech.Hypatia.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="DSC.Tech.Hypatia.Tests.Dispatching.MessageDispatcherTests" name="MissingQueryHandler_ThrowsTypedException" />
+    </UnitTest>
+    <UnitTest name="DSC.Tech.Hypatia.Tests.DependencyInjection.ServiceCollectionExtensionsTests.AddHypatia_RegistersDispatcherAndAllHandlerShapes" storage="e:\projects\libraries\dsc.tech.hypatia\tests\dsc.tech.hypatia.tests\bin\release\net10.0\dsc.tech.hypatia.tests.dll" id="fd32bb3f-e30b-9224-ae7b-e52027f451fc">
+      <Execution id="b406a1c5-e81f-4b6b-9501-136295d5449b" />
+      <TestMethod codeBase="E:\Projects\Libraries\DSC.Tech.Hypatia\tests\DSC.Tech.Hypatia.Tests\bin\Release\net10.0\DSC.Tech.Hypatia.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="DSC.Tech.Hypatia.Tests.DependencyInjection.ServiceCollectionExtensionsTests" name="AddHypatia_RegistersDispatcherAndAllHandlerShapes" />
+    </UnitTest>
+    <UnitTest name="DSC.Tech.Hypatia.Tests.DependencyInjection.ServiceCollectionExtensionsTests.DispatcherAndHandlers_RespectScopedLifetime" storage="e:\projects\libraries\dsc.tech.hypatia\tests\dsc.tech.hypatia.tests\bin\release\net10.0\dsc.tech.hypatia.tests.dll" id="87d0db83-9b13-4c4b-e971-e97a98492b06">
+      <Execution id="a9ee019e-8668-4bf7-a529-d880299c50b4" />
+      <TestMethod codeBase="E:\Projects\Libraries\DSC.Tech.Hypatia\tests\DSC.Tech.Hypatia.Tests\bin\Release\net10.0\DSC.Tech.Hypatia.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="DSC.Tech.Hypatia.Tests.DependencyInjection.ServiceCollectionExtensionsTests" name="DispatcherAndHandlers_RespectScopedLifetime" />
+    </UnitTest>
+    <UnitTest name="DSC.Tech.Hypatia.Tests.Dispatching.MessageDispatcherTests.MultipleHandlers_ThrowsInsteadOfSilentlyChoosingOne" storage="e:\projects\libraries\dsc.tech.hypatia\tests\dsc.tech.hypatia.tests\bin\release\net10.0\dsc.tech.hypatia.tests.dll" id="3e6210ed-969e-8576-f506-8243eaddfeb5">
+      <Execution id="30e40597-5cdb-41a6-9b54-487bd347c162" />
+      <TestMethod codeBase="E:\Projects\Libraries\DSC.Tech.Hypatia\tests\DSC.Tech.Hypatia.Tests\bin\Release\net10.0\DSC.Tech.Hypatia.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="DSC.Tech.Hypatia.Tests.Dispatching.MessageDispatcherTests" name="MultipleHandlers_ThrowsInsteadOfSilentlyChoosingOne" />
+    </UnitTest>
+    <UnitTest name="DSC.Tech.Hypatia.Tests.Integration.MessagingIntegrationTests.CommandThenQuery_EndToEnd_UsesSameScope" storage="e:\projects\libraries\dsc.tech.hypatia\tests\dsc.tech.hypatia.tests\bin\release\net10.0\dsc.tech.hypatia.tests.dll" id="e74c2202-b268-42bf-d82a-f3b80846f596">
+      <Execution id="6d0fcf24-008f-4c1b-bac9-77699a932e50" />
+      <TestMethod codeBase="E:\Projects\Libraries\DSC.Tech.Hypatia\tests\DSC.Tech.Hypatia.Tests\bin\Release\net10.0\DSC.Tech.Hypatia.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="DSC.Tech.Hypatia.Tests.Integration.MessagingIntegrationTests" name="CommandThenQuery_EndToEnd_UsesSameScope" />
+    </UnitTest>
+    <UnitTest name="DSC.Tech.Hypatia.Tests.Dispatching.MessageDispatcherTests.Query_ReturnsResultAndToken" storage="e:\projects\libraries\dsc.tech.hypatia\tests\dsc.tech.hypatia.tests\bin\release\net10.0\dsc.tech.hypatia.tests.dll" id="74dbfe6e-5df3-2115-8d20-4c47fed8a7b0">
+      <Execution id="129ca8f1-321d-47a2-b024-97be9d80fd65" />
+      <TestMethod codeBase="E:\Projects\Libraries\DSC.Tech.Hypatia\tests\DSC.Tech.Hypatia.Tests\bin\Release\net10.0\DSC.Tech.Hypatia.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="DSC.Tech.Hypatia.Tests.Dispatching.MessageDispatcherTests" name="Query_ReturnsResultAndToken" />
+    </UnitTest>
+    <UnitTest name="DSC.Tech.Hypatia.Tests.Dispatching.MessageDispatcherTests.HandlerException_IsNotWrappedByReflection" storage="e:\projects\libraries\dsc.tech.hypatia\tests\dsc.tech.hypatia.tests\bin\release\net10.0\dsc.tech.hypatia.tests.dll" id="38fa01a9-5600-1f30-5fb2-c8cfd61e2e82">
+      <Execution id="fef5ca21-3bbc-44e9-a406-ac370d23cde6" />
+      <TestMethod codeBase="E:\Projects\Libraries\DSC.Tech.Hypatia\tests\DSC.Tech.Hypatia.Tests\bin\Release\net10.0\DSC.Tech.Hypatia.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="DSC.Tech.Hypatia.Tests.Dispatching.MessageDispatcherTests" name="HandlerException_IsNotWrappedByReflection" />
+    </UnitTest>
+    <UnitTest name="DSC.Tech.Hypatia.Tests.Dispatching.MessageDispatcherTests.MissingResultCommandHandler_ThrowsTypedException" storage="e:\projects\libraries\dsc.tech.hypatia\tests\dsc.tech.hypatia.tests\bin\release\net10.0\dsc.tech.hypatia.tests.dll" id="a08c0200-75a9-212e-73cc-a5adb5b17c1b">
+      <Execution id="42ff108f-02ba-466d-bfd6-ed4502339706" />
+      <TestMethod codeBase="E:\Projects\Libraries\DSC.Tech.Hypatia\tests\DSC.Tech.Hypatia.Tests\bin\Release\net10.0\DSC.Tech.Hypatia.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="DSC.Tech.Hypatia.Tests.Dispatching.MessageDispatcherTests" name="MissingResultCommandHandler_ThrowsTypedException" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="74dbfe6e-5df3-2115-8d20-4c47fed8a7b0" executionId="129ca8f1-321d-47a2-b024-97be9d80fd65" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="610e0163-274e-5edc-1bcb-a354e924f303" executionId="3a546f20-731a-47eb-9bfc-427c8ff841ec" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6260bf3a-699d-0cf8-d84e-3485075c7b0c" executionId="dd57e9d9-5ad7-4382-a696-33c22823a6e8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a08c0200-75a9-212e-73cc-a5adb5b17c1b" executionId="42ff108f-02ba-466d-bfd6-ed4502339706" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b0bb4286-d2d3-b109-0c32-ad10377c81ea" executionId="0dc39a0d-3865-4cbd-87af-191809af1e3a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4367aece-4aef-8003-10c3-1d4ee5fc2b3e" executionId="53705bea-3e12-48f1-a735-760508db0c33" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="87d0db83-9b13-4c4b-e971-e97a98492b06" executionId="a9ee019e-8668-4bf7-a529-d880299c50b4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1405929d-ea76-3111-c5b3-a53f11a21e02" executionId="8fec440b-e81b-4e2f-9387-ef108b0408ae" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="38fa01a9-5600-1f30-5fb2-c8cfd61e2e82" executionId="fef5ca21-3bbc-44e9-a406-ac370d23cde6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="498f7cea-7c4f-e637-d760-8d816d27d43a" executionId="800b2237-8a98-4a2e-b9f6-396dc9590ddd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3e6210ed-969e-8576-f506-8243eaddfeb5" executionId="30e40597-5cdb-41a6-9b54-487bd347c162" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="03fd9089-7793-8903-24b2-4a04427587ef" executionId="ef5a9fdb-a60d-4442-b2cf-986e6ad842ed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="be4697d6-8d55-e821-2ca5-dc75b86a5b98" executionId="d813f418-5856-4b3c-954e-ad68276aebd5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="70531700-6ad5-7c34-13f2-c7b2108270be" executionId="d50b23c4-ce19-485e-a6da-456716ca6821" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fd32bb3f-e30b-9224-ae7b-e52027f451fc" executionId="b406a1c5-e81f-4b6b-9501-136295d5449b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e74c2202-b268-42bf-d82a-f3b80846f596" executionId="6d0fcf24-008f-4c1b-bac9-77699a932e50" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="259679df-a56d-8c5d-15dd-90162500d2a0" executionId="7a02a837-9cb1-4ee5-bfd7-06c4c1d695aa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="17" executed="17" passed="17" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v3.1.4+50e68bbb8b (64-bit .NET 10.0.15)&#xD;
+[xUnit.net 00:00:00.19]   Discovering: DSC.Tech.Hypatia.Tests&#xD;
+[xUnit.net 00:00:00.26]   Discovered:  DSC.Tech.Hypatia.Tests&#xD;
+[xUnit.net 00:00:00.32]   Starting:    DSC.Tech.Hypatia.Tests&#xD;
+[xUnit.net 00:00:00.54]   Finished:    DSC.Tech.Hypatia.Tests&#xD;
+</StdOut>
+    </Output>
+    <CollectorDataEntries>
+      <Collector agentName="TATOOINE" uri="datacollector://microsoft/CoverletCodeCoverage/1.0" collectorDisplayName="XPlat code coverage">
+        <UriAttachments>
+          <UriAttachment>
+            <A href="TATOOINE\coverage.cobertura.xml"></A>
+          </UriAttachment>
+        </UriAttachments>
+      </Collector>
+    </CollectorDataEntries>
+  </ResultSummary>
+</TestRun>
